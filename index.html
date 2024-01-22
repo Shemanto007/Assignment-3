@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                            <li><a>Home</a></li>
+                            <li><a>About</a></li>
+                            <li><a>Pages</a></li>
+                            <li><a>Blogs</a></li>
+                            <li><a>Contract</a></li>
+                        </ul>
+                    </div>
+                    <a class=" text-xl">Hockey<span>'</span>s</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a>Home</a></li>
+                        <li><a>About</a></li>
+                        <li><a>Pages</a></li>
+                        <li><a>Blogs</a></li>
+                        <li><a>Contract</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end">
+                    <a class="btn">Get ticket</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="banner">
+            <div class="carousel max max-h-96">
+                <div id="slide1" class="carousel-item relative w-full ">
+                    <img src="Images/1.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide4" class="btn btn-circle">❮</a>
+                        <a href="#slide2" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide2" class="carousel-item relative w-full">
+                    <img src="Images/2.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide1" class="btn btn-circle">❮</a>
+                        <a href="#slide3" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide3" class="carousel-item relative w-full">
+                    <img src="Images/3.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide2" class="btn btn-circle">❮</a>
+                        <a href="#slide4" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide4" class="carousel-item relative w-full">
+                    <img src="Images/4.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide3" class="btn btn-circle">❮</a>
+                        <a href="#slide1" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="banner-club">
+            <div class="text-center my-32">
+                <h2>Professional Hockeys Club</h2>
+                <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in
+                    sit nullam proin. </p>
+            </div>
+            <div class="banner-2 grid grid-cols-4">
+
+                <div class=" border-solid border bg-blend-color p-14 text-center ">
+                    <div class="radial-progress text-primary" style="--value:87;" role="progressbar">87%</div>
+                    <h4>Prayer Facility</h4>
+                    <p>Amet consectetur. Condimentum dignissim adipiscing </p>
+                </div>
+                <div class=" border-solid border bg-blend-color p-14 text-center">
+                    <div class="radial-progress text-primary" style="--value:87;" role="progressbar">87%</div>
+                    <h4>Prayer Facility</h4>
+                    <p>Amet consectetur. Condimentum dignissim adipiscing </p>
+                </div>
+                <div class=" border-solid border bg-blend-color p-14 text-center">
+                    <div class="radial-progress text-primary" style="--value:87;" role="progressbar">87%</div>
+                    <h4>Prayer Facility</h4>
+                    <p>Amet consectetur. Condimentum dignissim adipiscing </p>
+                </div>
+                <div class=" border-solid border bg-blend-color p-14 text-center">
+                    <div class="radial-progress  text-primary " style="--value:87;" role="progressbar">87%</div>
+                    <h4>Prayer Facility</h4>
+                    <p>Amet consectetur. Condimentum dignissim adipiscing </p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+</body>
+
+</html>
